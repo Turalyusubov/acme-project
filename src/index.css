@@ -34,3 +34,29 @@ a {
         padding-right: 3rem;
     }
 }
+
+@media screen and (max-width: 885px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.transparent-btn a {
+    color: var(--text-light-color);
+    border: 1px solid white;
+    padding: 7px 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.transparent-btn a:hover {
+    background-color: white;
+    color: var(--text-dark-color);
+}
+
+.page-section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
