@@ -1,5 +1,5 @@
 import React from 'react'
-import '../mainpage.css'
+import './supportways.css'
 import SupportCard from './supportcard/SupportCard'
 
 export default function SupportWays() {
