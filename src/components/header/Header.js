@@ -3,17 +3,27 @@ import { Link } from 'react-router-dom'
 import "./header.css"
 
 export default function Header({ heading, text, headerClass, btnType }) {
+
     return (
         <div className={`header container ${headerClass}`}>
             <h1>{heading}</h1>
             <p>{text}</p>
 
-            {btnType === "transparent-btn" ?
+            {btnType === "transparent-btn" &&
                 <div className={btnType}>
                     <Link to='/shop'>Shop Merch</Link>
-                </div> :
+                </div>
+            }
+
+            {btnType === "white-btn" &&
                 <div className={btnType}>
                     <Link to='/respond-to-covid'>Read Our Statement</Link>
+                </div>
+            }
+
+            {btnType === "contact-support-btn" &&
+                <div className={btnType}>
+                    <Link to='/contact'>Contact Support</Link>
                 </div>
             }
         </div>

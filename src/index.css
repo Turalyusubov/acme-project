@@ -43,7 +43,8 @@ a {
     }
 }
 
-.transparent-btn a {
+.transparent-btn a,
+.contact-support-btn a {
     color: var(--text-light-color);
     border: 1px solid white;
     padding: 7px 16px;
@@ -52,7 +53,8 @@ a {
     transition: all .3s;
 }
 
-.transparent-btn a:hover {
+.transparent-btn a:hover,
+.contact-support-btn a:hover {
     background-color: white;
     color: var(--text-dark-color);
 }
