@@ -4,6 +4,7 @@ import SupportWays from './supportWays/SupportWays'
 import { Link } from 'react-router-dom'
 import './mainpage.css'
 import ShopProducts from './shopProducts/ShopProducts'
+import ShopLocal from './shopLocal/ShopLocal'
 
 export default function MainPage() {
     return (
@@ -22,6 +23,7 @@ export default function MainPage() {
                 text="As an outdoor shop, we’ve taken precautionary measures to ensure the safety of all our customers and team members."
             />
             <ShopProducts />
+            <ShopLocal />
         </div>
     )
 }
