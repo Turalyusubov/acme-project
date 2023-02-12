@@ -3,6 +3,7 @@ import Header from '../../components/header/Header'
 import SupportWays from './supportWays/SupportWays'
 import { Link } from 'react-router-dom'
 import './mainpage.css'
+import ShopProducts from './shopProducts/ShopProducts'
 
 export default function MainPage() {
     return (
@@ -20,6 +21,7 @@ export default function MainPage() {
                 heading="How we're keeping you safe during COVID-19"
                 text="As an outdoor shop, we’ve taken precautionary measures to ensure the safety of all our customers and team members."
             />
+            <ShopProducts />
         </div>
     )
 }
