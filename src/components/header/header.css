@@ -1,22 +1,20 @@
 .main-header {
     background-image:
-        linear-gradient(0deg, rgba(0, 0, 0, 0.7763480392156863) 0%, rgba(22, 22, 22, 1) 2%, rgba(48, 48, 48, 0) 98%),
-        url(../../assets/main-header-pic.jpg);
+        linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(../../assets/main-header-pic.jpg);
     padding-top: 80px;
 
 }
 
 .about-header {
     background-image:
-        linear-gradient(0deg, rgba(0, 0, 0, 0.7763480392156863) 0%, rgba(22, 22, 22, 1) 2%, rgba(48, 48, 48, 0) 98%),
-        url(../../assets/about-header.jpg);
+        linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(../../assets/about-header.jpg);
     padding-top: 80px;
 }
 
 .help-header {
     background-image:
-        linear-gradient(0deg, rgba(0, 0, 0, 0.7763480392156863) 0%, rgba(22, 22, 22, 1) 2%, rgba(48, 48, 48, 0) 98%),
-        url(../../assets/help-header-pic.jpg);
+        linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(../../assets/help-header-pic.jpg);
+    padding-bottom: 20px;
 }
 
 .covid-info {
