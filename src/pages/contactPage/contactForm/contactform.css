@@ -55,6 +55,11 @@
     overflow: auto;
 }
 
+.contact-form input:hover,
+.contact-form textarea:hover {
+    border: 1px solid var(--red) !important;
+}
+
 input.contact-form-btn {
     display: inline-block;
     justify-content: center;

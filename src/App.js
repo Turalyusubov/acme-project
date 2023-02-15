@@ -7,6 +7,7 @@ import ContactPage from './pages/contactPage/ContactPage'
 import ShopPage from './pages/shopPage/ShopPage'
 import DonatePage from './pages/donatePage/DonatePage'
 import { Routes, Route } from 'react-router-dom';
+import ItemDetailsPage from './pages/itemDetailsPage/ItemDetailsPage'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/shop" element={<ShopPage />} />
         <Route path="/donations" element={<DonatePage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/product/:itemId" element={<ItemDetailsPage />} />
       </Routes>
       <Footer />
     </div>
