@@ -10,12 +10,15 @@ export default function ItemDetailsPage() {
     console.log(thisItem)
     return (
         <div className='item-details-page'>
-            <div className='item-details-page-head container'>
+            <div className='item-details-page-head custom-container'>
                 <h1>{thisItem.name}</h1>
             </div>
-            <div className='item-details-page-body container page-section'>
+            <div className='item-details-page-body custom-container page-section'>
                 <div className='item-details-left'>
                     <img src={thisItem.pic} alt='item-pic' />
+                    {thisItem.isSale &&
+                        <span className='sale'>Sale</span>
+                    }
                 </div>
                 <div className='item-details-right'>
                     <h2>{thisItem.name}</h2>

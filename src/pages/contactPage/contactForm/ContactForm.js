@@ -16,7 +16,7 @@ export default function ContactForm() {
     }
 
     return (
-        <div className='contact-form-section container page-section' id='contactus'>
+        <div className='contact-form-section custom-container page-section' id='contactus'>
             <div className='contact-left'>
                 <h3>Contact Us</h3>
                 <p className='contact-adress'>

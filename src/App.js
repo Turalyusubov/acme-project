@@ -8,11 +8,12 @@ import ShopPage from './pages/shopPage/ShopPage'
 import DonatePage from './pages/donatePage/DonatePage'
 import { Routes, Route } from 'react-router-dom';
 import ItemDetailsPage from './pages/itemDetailsPage/ItemDetailsPage'
+import NavbarTest from './components/navbartest/NavbarTest'
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavbarTest />
       <Routes>
         <Route exact path="/" element={<MainPage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -22,6 +23,8 @@ function App() {
         <Route path="/product/:itemId" element={<ItemDetailsPage />} />
       </Routes>
       <Footer />
+
+      <NavbarTest />
     </div>
   );
 }

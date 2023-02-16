@@ -4,7 +4,7 @@ import PicWithText from '../../../components/picWithText/PicWithText'
 
 export default function MeetOwners() {
     return (
-        <div className='meetowners-section page-section container'>
+        <div className='meetowners-section page-section custom-container'>
             <PicWithText
                 img="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84cdfbaf8c176df76d51a3_sept-commercial-Cqu3DdNwtKQ-unsplash%20(1)%20(1).jpg"
             >

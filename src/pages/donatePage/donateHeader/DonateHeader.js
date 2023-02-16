@@ -3,7 +3,7 @@ import './donateheader.css'
 
 export default function DonateHeader() {
     return (
-        <div className='donate-header container page-section'>
+        <div className='donate-header custom-container page-section'>
             <h2>Here at Acme Outdoors</h2>
             <h4>every dollar counts</h4>
             <p>Acme Outdoors is more than just a company,

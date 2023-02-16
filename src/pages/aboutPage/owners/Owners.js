@@ -4,7 +4,7 @@ import './owners.css'
 
 export default function Owners() {
     return (
-        <div className='owners-section page-section container'>
+        <div className='owners-section page-section custom-container'>
             <Person
                 pic='https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84d114eef39554b0e943d8_John%20Doe.png'
                 name='John Doe'

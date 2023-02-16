@@ -7,7 +7,7 @@ import { BiMessage } from 'react-icons/bi'
 export default function WhyAcme() {
 
     return (
-        <div className='container page-section whyacme-section'>
+        <div className='custom-container page-section whyacme-section'>
             <div className='whyacme-section-head'>
                 <p className='section-subhead'>Why acme outdoors?</p>
                 <h2 className='section-mainhead'>We’re the best in the business.</h2>

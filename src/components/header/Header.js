@@ -5,7 +5,7 @@ import "./header.css"
 export default function Header({ heading, text, headerClass, btnType }) {
 
     return (
-        <div className={`header container ${headerClass}`}>
+        <div className={`header custom-container ${headerClass}`}>
             <h1>{heading}</h1>
             <p>{text}</p>
 

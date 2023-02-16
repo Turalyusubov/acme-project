@@ -4,7 +4,7 @@ import SupportCard from './supportcard/SupportCard'
 
 export default function SupportWays() {
     return (
-        <div className='sup-section page-section container'>
+        <div className='sup-section page-section custom-container'>
             <div className='sup-head'>
                 <div className='sup-head-left'>
                     <p className='section-subhead'>Ways to support</p>

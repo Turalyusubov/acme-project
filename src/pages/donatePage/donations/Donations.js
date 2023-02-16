@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Donations() {
     return (
-        <div className='donations-section container page-section'>
+        <div className='donations-section custom-container page-section'>
             <div className='donations-container'>
                 <Link to='/'>Donate $100</Link>
                 <Link to='/'>Donate $50</Link>

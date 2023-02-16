@@ -4,7 +4,7 @@ import PicWithText from '../../../components/picWithText/PicWithText'
 
 export default function ShopLocal() {
     return (
-        <div className='shop-local-section page-section container'>
+        <div className='shop-local-section page-section custom-container'>
             <PicWithText
                 img="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fe3910db4fde2e69f396_christiann-koepke-dQyS2pMYtok-unsplash%20(1).jpg">
                 <h2>Shop Local.</h2>

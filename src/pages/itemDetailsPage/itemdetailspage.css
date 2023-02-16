@@ -2,6 +2,7 @@
     padding-top: 1rem;
 }
 
+
 .item-details-page-head {
     background-color: var(--bg-dark-color);
     color: var(--text-light-color);
@@ -16,6 +17,7 @@
 
 .item-details-left {
     width: 40%;
+    position: relative;
 }
 
 .item-details-right {

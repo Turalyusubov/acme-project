@@ -30,6 +30,11 @@ footer {
 
 .bottom-footer a {
     color: var(--red);
+    transition: all .3s;
+}
+
+.bottom-footer a:hover {
+    color: #b33636;
 }
 
 @media screen and (max-width: 480px) {

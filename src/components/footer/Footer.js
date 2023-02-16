@@ -6,7 +6,7 @@ import { FaTwitterSquare } from 'react-icons/fa'
 
 export default function Footer() {
     return (
-        <footer className='container'>
+        <footer className='custom-container'>
             <div className='upper-footer'>
                 <div className='footer-logo'>
                     <Link to='/'>
