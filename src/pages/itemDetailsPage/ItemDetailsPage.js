@@ -7,7 +7,6 @@ export default function ItemDetailsPage() {
     const { itemId } = useParams()
 
     const thisItem = itemsArray.find(item => item.id == itemId)
-    console.log(thisItem)
     return (
         <div className='item-details-page'>
             <div className='item-details-page-head custom-container'>

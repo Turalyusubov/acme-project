@@ -9,6 +9,7 @@ import DonatePage from './pages/donatePage/DonatePage'
 import { Routes, Route } from 'react-router-dom';
 import ItemDetailsPage from './pages/itemDetailsPage/ItemDetailsPage'
 import NavbarTest from './components/navbartest/NavbarTest'
+import CategoryPage from './pages/categoryPage/CategoryPage'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/donations" element={<DonatePage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/product/:itemId" element={<ItemDetailsPage />} />
+        <Route path="/category/:itemsCategory" element={<CategoryPage />} />
       </Routes>
       <Footer />
 

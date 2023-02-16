@@ -3,6 +3,7 @@ import './items.css'
 import { itemsArray } from '../../../api/items'
 import Item from '../../../components/item/Item'
 import { Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 export default function Items() {
     const notFeaturedItems = itemsArray.filter(item => !item.isFeatured)
@@ -20,10 +21,10 @@ export default function Items() {
         <div className='items-section'>
             <div className='categories-container'>
                 <p>Shop by Category</p>
-                <Link to='/'>Gift Cards</Link>
-                <Link to='/'>Tents</Link>
-                <Link to='/'>Accessories</Link>
-                <Link to='/'>Packs</Link>
+                <Link to='/category/gift-cards'>Gift Cards</Link>
+                <Link to='/category/tents'>Tents</Link>
+                <Link to='/category/accessories'>Accessories</Link>
+                <Link to='/category/packs'>Packs</Link>
             </div>
             <div className='items-container'>
                 {notFeaturedItemElements}

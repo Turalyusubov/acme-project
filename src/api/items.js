@@ -6,7 +6,7 @@ const itemsArray = [
         isSale: false,
         oldPrice: "0",
         isFeatured: false,
-        category: "gift-card",
+        category: "gift-cards",
         pic: "https://assets.website-files.com/5e853c3383474026e43f2c78/5e861d123df4d175e80e8beb_acme-gift-card.jpg"
     },
     {
