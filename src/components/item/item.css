@@ -58,3 +58,8 @@
     text-transform: uppercase;
     font-size: 14px;
 }
+
+.item-old-price {
+    color: var(--red);
+    text-decoration: line-through;
+}

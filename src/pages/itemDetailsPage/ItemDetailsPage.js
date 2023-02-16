@@ -22,7 +22,7 @@ export default function ItemDetailsPage() {
                 <div className='item-details-right'>
                     <h2>{thisItem.name}</h2>
                     <p>
-                        <strong>$ {thisItem.currentPrice} USD</strong>
+                        <strong>$ {thisItem.currentPrice} USD  {thisItem.oldPrice !== "0" && <span className='item-old-price'>$ {thisItem.oldPrice} USD</span>}</strong>
                     </p>
                     <div className='item-details-about'>
                         <h3>What’s a Rich Text element?</h3>

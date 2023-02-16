@@ -17,7 +17,7 @@ export default function Header({ heading, text, headerClass, btnType }) {
 
             {btnType === "white-btn" &&
                 <div className={btnType}>
-                    <Link to='/respond-to-covid'>Read Our Statement</Link>
+                    <Link to='/covid-response'>Read Our Statement</Link>
                 </div>
             }
 

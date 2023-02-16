@@ -15,6 +15,7 @@ export default function Items() {
             title={item.name}
             currentPrice={item.currentPrice}
             isSale={item.isSale}
+            oldPrice={item.oldPrice}
         />
     )
     return (

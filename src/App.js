@@ -10,6 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 import ItemDetailsPage from './pages/itemDetailsPage/ItemDetailsPage'
 import NavbarTest from './components/navbartest/NavbarTest'
 import CategoryPage from './pages/categoryPage/CategoryPage'
+import CovidResponse from './pages/covidresponse/CovidResponse'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/shop" element={<ShopPage />} />
         <Route path="/donations" element={<DonatePage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="covid-response" element={<CovidResponse />} />
         <Route path="/product/:itemId" element={<ItemDetailsPage />} />
         <Route path="/category/:itemsCategory" element={<CategoryPage />} />
       </Routes>
