@@ -1,14 +1,17 @@
 import React from 'react'
 import Header from '../../components/header/Header'
 import SupportWays from './supportWays/SupportWays'
-import { Link } from 'react-router-dom'
 import './mainpage.css'
 import ShopProducts from './shopProducts/ShopProducts'
 import ShopLocal from './shopLocal/ShopLocal'
+import { Helmet } from 'react-helmet'
 
 export default function MainPage() {
     return (
         <div>
+            <Helmet>
+                <title>Acme | Home</title>
+            </Helmet>
             <Header
                 btnType="transparent-btn"
                 headerClass="main-header"

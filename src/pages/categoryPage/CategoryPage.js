@@ -4,6 +4,7 @@ import './categorypage.css'
 import { Link } from 'react-router-dom'
 import Item from '../../components/item/Item'
 import { itemsArray } from '../../api/items'
+import { Helmet } from 'react-helmet'
 
 export default function CategoryPage() {
     const { itemsCategory } = useParams()
@@ -19,6 +20,9 @@ export default function CategoryPage() {
         />)
     return (
         <div className='shoppage'>
+            <Helmet>
+                <title>{itemsCategory}</title>
+            </Helmet>
             <div className='shoppage-head custom-container'>
                 <h1>Shop Our Products</h1>
             </div>

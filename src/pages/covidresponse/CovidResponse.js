@@ -1,9 +1,13 @@
 import React from 'react'
 import './covidresponse.css'
+import { Helmet } from 'react-helmet'
 
 export default function CovidResponse() {
     return (
         <div className='covid-page'>
+            <Helmet>
+                <title>How we're responding to COVID-19</title>
+            </Helmet>
             <div className='covid-page-head custom-container'>
                 <h1>How we're responding to COVID-19</h1>
             </div>

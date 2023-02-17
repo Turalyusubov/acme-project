@@ -7,7 +7,7 @@ export default function Donations() {
     return (
         <div className='donations-section custom-container page-section'>
             <div className='donations-container'>
-                {donationsArray.map(donat => <Link to={`/product/${donat.id}`}>{donat.name}</Link>)}
+                {donationsArray.map(donat => <Link key={donat.id} to={`/product/${donat.id}`}>{donat.name}</Link>)}
                 {/* <Link to='/'>Donate $100</Link>
                 <Link to='/'>Donate $50</Link>
                 <Link to='/'>Donate $25</Link>

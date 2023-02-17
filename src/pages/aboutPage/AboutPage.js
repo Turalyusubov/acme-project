@@ -1,14 +1,17 @@
 import React from 'react'
 import Header from '../../components/header/Header'
-import PicWithText from '../../components/picWithText/PicWithText'
 import './aboutpage.css'
 import MeetOwners from './meetowners/MeetOwners'
 import Owners from './owners/Owners'
 import WhyAcme from './whyAcme/WhyAcme'
+import { Helmet } from 'react-helmet'
 
 export default function AboutPage() {
     return (
         <div>
+            <Helmet>
+                <title>ABout</title>
+            </Helmet>
             <Header
                 btnType="transparent-btn"
                 headerClass="about-header"

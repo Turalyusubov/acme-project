@@ -47,6 +47,33 @@
     object-fit: cover;
 }
 
+.add-to-cart-btn {
+    color: var(--red);
+    border: 1px solid var(--red);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    transition: all .3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: var(--red);
+    color: #fff;
+
+}
+
+.already-in-cart {
+    background-color: #dd8080;
+    color: var(--text-light-color);
+    border: 1px solid #dd8080;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 771px) {
     .item-details-page-body {
         display: block;

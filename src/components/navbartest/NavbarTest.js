@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import './navbartest.css'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Link } from 'react-router-dom';
+import { Context } from '../../context/Context';
 
 export default function NavbarTest() {
     const [isCartShown, setIsCartShown] = useState(true)
+    const { cartItems } = useContext(Context)
 
     function showCartIcon() {
         setIsCartShown(prevState => !prevState)
@@ -29,10 +31,11 @@ export default function NavbarTest() {
                     <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
-            <a href='#' className='cart-icon' style={isCartShown ? { display: "block" } : { display: "none" }}>
+            <Link to='/cart' className='cart-icon' style={isCartShown ? { display: "block" } : { display: "none" }}>
                 <img src='https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e86146bb854797d12a30a13_cart.svg' />
-                <span className='item-count'>0</span>
-            </a>
+                <span className='item-count'>{cartItems.length}</span>
+            </Link>
         </Navbar>
+
     )
 }

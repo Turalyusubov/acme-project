@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import './item.css'
 
 export default function Item({ id, img, title, currentPrice, isSale, oldPrice }) {
-    // const isOldPriceShown = 
-    console.log(oldPrice)
     return (
         <div className='item-container'>
             <Link to={`/product/${id}`}>

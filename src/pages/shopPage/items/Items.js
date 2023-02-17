@@ -3,7 +3,6 @@ import './items.css'
 import { itemsArray } from '../../../api/items'
 import Item from '../../../components/item/Item'
 import { Link } from 'react-router-dom'
-import { Routes, Route } from 'react-router-dom'
 
 export default function Items() {
     const notFeaturedItems = itemsArray.filter(item => !item.isFeatured)
